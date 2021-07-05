@@ -1,0 +1,47 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(68, 68, 68);
+}
+.highlight{
+    color: rgb(2, 127, 204);
+}
+h1{
+    font-size: 40px;
+}
+.flexible{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 40px;
+}
+#link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient( rgb(66, 196, 240), rgb(2, 127, 204));
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+h2{
+    font-size: 28px;
+}
+#banner{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width img{
+    width: 450px;
+    height: auto;
+}
+#link-button2{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(189, 63, 63), rgb(236, 160, 160));
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-weight: 600;
+}
