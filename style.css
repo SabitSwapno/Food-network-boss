@@ -1,6 +1,7 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(68, 68, 68);
+    margin: 0;
 }
 .highlight{
     color: rgb(2, 127, 204);
@@ -10,6 +11,7 @@ h1{
 }
 .flexible{
     display: flex;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -35,7 +37,6 @@ h2{
 }
 .half-width img{
     width: 450px;
-    height: auto;
 }
 #link-button2{
     text-decoration: none;
@@ -44,4 +45,31 @@ h2{
     padding: 10px 30px;
     border-radius: 15px;
     font-weight: 600;
+}
+.boxes{
+    width: 30%;
+    margin-left: 30px;
+    margin-right: 25px;
+    box-shadow: 3px 3px 3px 3px grey;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.boxes img{
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#grey-color{
+    color: rgb(68, 68, 68);
 }
